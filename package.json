@@ -1,0 +1,25 @@
+{
+  "name": "meeting-hall",
+  "version": "1.0.0",
+  "description": "Meeting Hall APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Karthikeyan Subramanian",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "http-errors": "^1.7.3",
+    "moment": "^2.27.0",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
